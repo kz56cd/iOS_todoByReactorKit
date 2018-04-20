@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42AED498E61365F3F519D24E /* Pods_TodoByReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC2C0B9A8C1A5D6ADFD3A5E /* Pods_TodoByReactorKit.framework */; };
+		EA148B9E20899A4B00EB22A4 /* TaskListViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA148B9D20899A4B00EB22A4 /* TaskListViewReactor.swift */; };
 		EA27C1A32086DF7600EBB268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27C1A22086DF7600EBB268 /* AppDelegate.swift */; };
 		EA27C1A52086DF7600EBB268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27C1A42086DF7600EBB268 /* ViewController.swift */; };
 		EA27C1A82086DF7600EBB268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA27C1A62086DF7600EBB268 /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 		EA27C1DC20881D0C00EBB268 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27C1DB20881D0C00EBB268 /* UserDefaultsService.swift */; };
 		EA27C1DE20881D1700EBB268 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27C1DD20881D1700EBB268 /* TaskService.swift */; };
 		EA27C1E020881D2400EBB268 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA27C1DF20881D2400EBB268 /* AlertService.swift */; };
+		EA326B152089973C00806A59 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA326B142089973C00806A59 /* BaseViewController.swift */; };
+		EA326B172089986800806A59 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA326B162089986800806A59 /* TaskListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,7 @@
 		4FC2C0B9A8C1A5D6ADFD3A5E /* Pods_TodoByReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoByReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		686EBE8898AB7EFA3030A731 /* Pods-TodoByReactorKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoByReactorKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TodoByReactorKit/Pods-TodoByReactorKit.release.xcconfig"; sourceTree = "<group>"; };
 		AD20DBDC90DA1227C93483D8 /* Pods-TodoByReactorKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoByReactorKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TodoByReactorKit/Pods-TodoByReactorKit.debug.xcconfig"; sourceTree = "<group>"; };
+		EA148B9D20899A4B00EB22A4 /* TaskListViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewReactor.swift; sourceTree = "<group>"; };
 		EA27C19F2086DF7600EBB268 /* TodoByReactorKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoByReactorKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA27C1A22086DF7600EBB268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA27C1A42086DF7600EBB268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		EA27C1DB20881D0C00EBB268 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		EA27C1DD20881D1700EBB268 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
 		EA27C1DF20881D2400EBB268 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		EA326B142089973C00806A59 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EA326B162089986800806A59 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +175,9 @@
 		EA27C1D020881C4500EBB268 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA326B142089973C00806A59 /* BaseViewController.swift */,
+				EA326B162089986800806A59 /* TaskListViewController.swift */,
+				EA148B9D20899A4B00EB22A4 /* TaskListViewReactor.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -401,6 +410,9 @@
 				EA27C1E020881D2400EBB268 /* AlertService.swift in Sources */,
 				EA27C1DE20881D1700EBB268 /* TaskService.swift in Sources */,
 				EA27C1DC20881D0C00EBB268 /* UserDefaultsService.swift in Sources */,
+				EA326B172089986800806A59 /* TaskListViewController.swift in Sources */,
+				EA148B9E20899A4B00EB22A4 /* TaskListViewReactor.swift in Sources */,
+				EA326B152089973C00806A59 /* BaseViewController.swift in Sources */,
 				EA27C1A52086DF7600EBB268 /* ViewController.swift in Sources */,
 				EA27C1A32086DF7600EBB268 /* AppDelegate.swift in Sources */,
 			);
